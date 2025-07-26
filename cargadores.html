@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cables | Mi Tienda Online</title>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/productos.css" />
+
+</head>
+<body>
+  <header>
+    <a href="index.html" div class="logo">MiTienda</div></a>
+    <nav>
+      <ul>
+        <li><a href="cargadores.html">Cargadores</a></li>
+        <li><a href="audifonos.html">Audífonos</a></li>
+        <li><a href="fundas.html">Fundas</a></li>
+        <li><a href="cables.html" aria-current="page">Cables</a></li>
+      </ul>
+    </nav>
+    <button class="dark-mode-toggle" aria-label="Alternar modo oscuro">Modo oscuro</button>
+  </header>
+
+  <main>
+  <section class="hero" aria-label="Bienvenida y descripción de productos">
+    <h1>Cables y Cargadores</h1>
+    <p>La mejor calidad para mantener tus dispositivos siempre cargados.</p>
+  </section>
+
+  <section class="offers" aria-label="Ofertas destacadas">
+    <h2 style="color: aliceblue;">🔥 Ofertas Especiales</h2>
+    <p>¡Hasta 20% de descuento en cargadores rápidos hasta fin de mes!</p>
+  </section>
+
+
+  <!-- Barra de filtros justo antes de las secciones de productos -->
+<div class="filter-buttons" role="tablist" aria-label="Filtrar tipos de cables">
+    
+   <button role="tab" aria-selected="true" aria-controls="lightning-section" id="btn-lightning" class="filter-btn  active">Lightning</button>
+  <button role="tab" aria-selected="false" aria-controls="usb-c-section" id="btn-usb-c" class="filter-btn">USB Tipo C</button>
+  <!-- Puedes añadir más botones aquí -->
+</div>
+
+
+
+
+
+<!-- Sección Lightning -->
+<section id="lightning-section" aria-labelledby="lightning-title" class="product-category" tabindex="0">
+  <h2 id="lightning-title">Lightning</h2>
+  <div class="products-grid">
+
+    <!-- ✅ Aquí va tu nuevo artículo actualizado -->
+    <article class="card" 
+      data-name="Cargador Tipo C Carga Rápido"
+      data-price="150"
+      data-desc="Cargador Lightning Tipo C con carga rápida, compatible con la mayoría de dispositivos iPhone."
+      data-img='["imagen/tipoc1.jpeg", "imagen/tipoc2.jpeg", "imagen/tipoc3.jpeg"]'
+      data-reviews='[{"stars":5,"comment":"Excelente calidad y carga súper rápida."},{"stars":4,"comment":"Buen cable, aunque un poco rígido."}]'>
+      <img src="imagen/tipoc1.jpeg" alt="Cargador Tipo C Carga Rápido" loading="lazy" />
+      <h3>Cargador Tipo C Carga Rápido Blanco</h3>
+      <p>$150 MXN</p>
+      <button class="btn-buy" aria-label="Ver detalles de Cable Lightning Tipo C Rápido">Detalles</button>
+    </article>
+
+        <article class="card" 
+      data-name="Cargador Tipo C Carga Rápido"
+      data-price="150"
+      data-desc="Cargador Lightning Tipo C con carga rápida, compatible con la mayoría de dispositivos iPhone."
+      data-img='["imagen/tipocn1.jpeg", "imagen/tipoc2.jpeg", "imagen/tipoc3.jpeg"]'
+      data-reviews='[{"stars":5,"comment":"Me Gusta ese color Negro y  carga súper rápida."},{"stars":4,"comment":"Exelente Cargador y Buen Precio."}]'>
+      <img src="imagen/tipocn1.jpeg" alt="Cable Lightning Tipo C Rápido" loading="lazy" />
+      <h3>Cargador Tipo C Carga Rápido Negro</h3>
+      <p>$150 MXN</p>
+      <button class="btn-buy" aria-label="Ver detalles de Cable Lightning Tipo C Rápido">Detalles</button>
+    </article>
+
+        <article class="card" 
+      data-name="Cable Lightning Tipo C Rápido"
+      data-price="150"
+      data-desc="Cable Lightning Tipo C con carga rápida, compatible con la mayoría de dispositivos iPhone."
+      data-img='["imagen/cable1.jpeg"]'
+      data-reviews='[{"stars":5,"comment":"Me Gusta ese color Negro y  carga súper rápida."},{"stars":4,"comment":"Exelente Cargador y Buen Precio."}]'>
+      <img src="imagen/cable1.jpeg" alt="Cable Lightning Tipo C Rápido" loading="lazy" />
+      <h3>Cable Lightning Tipo C Carga Rápido Negro</h3>
+      <p>$150 MXN</p>
+      <button class="btn-buy" aria-label="Ver detalles de Cable Lightning Tipo C Rápido">Detalles</button>
+    </article>
+
+        <article class="card" 
+      data-name="Cable Lightning Tipo C Rápido"
+      data-price="150"
+      data-desc="Cable Lightning Tipo C con carga rápida, compatible con la mayoría de dispositivos iPhone."
+      data-img='["imagen/cable2.jpeg"]'
+      data-reviews='[{"stars":5,"comment":"Me Gusta ese color Negro y  carga súper rápida."},{"stars":4,"comment":"Exelente Cargador y Buen Precio."}]'>
+      <img src="imagen/cable2.jpeg" alt="Cable Lightning Tipo C Rápido" loading="lazy" />
+      <h3>Cable Lightning Tipo C Carga Rápido Negro</h3>
+      <p>$150 MXN</p>
+      <button class="btn-buy" aria-label="Ver detalles de Cable Lightning Tipo C Rápido">Detalles</button>
+    </article>
+
+        <article class="card" 
+      data-name="Cabecita Lightning Tipo C Rápido"
+      data-price="150"
+      data-desc="Cabecita Lightning Tipo C con carga rápida, compatible con la mayoría de dispositivos iPhone."
+      data-img='["imagen/cabeza1.jpeg"]'
+      data-reviews='[{"stars":5,"comment":"Me Gusta ese color Negro y  carga súper rápida."},{"stars":4,"comment":"Exelente Cargador y Buen Precio."}]'>
+      <img src="imagen/cabeza1.jpeg" alt="Cable Lightning Tipo C Rápido" loading="lazy" />
+      <h3>Cabecita Lightning Tipo C Carga Rápido Negro</h3>
+      <p>$150 MXN</p>
+      <button class="btn-buy" aria-label="Ver detalles de Cable Lightning Tipo C Rápido">Detalles</button>
+    </article>
+
+        <article class="card" 
+      data-name="Cabecita Lightning Tipo C Rápido"
+      data-price="150"
+      data-desc="Cabecita Lightning Tipo C con carga rápida, compatible con la mayoría de dispositivos iPhone."
+      data-img='["imagen/cabeza2.jpeg"]'
+      data-reviews='[{"stars":5,"comment":"Me Gusta ese color Negro y  carga súper rápida."},{"stars":4,"comment":"Exelente Cargador y Buen Precio."}]'>
+      <img src="imagen/cabeza2.jpeg" alt="Cable Lightning Tipo C Rápido" loading="lazy" />
+      <h3>Cabecita Lightning Tipo C Carga Rápido Negro</h3>
+      <p>$150 MXN</p>
+      <button class="btn-buy" aria-label="Ver detalles de Cable Lightning Tipo C Rápido">Detalles</button>
+    </article>
+
+  </div>
+</section>
+
+      <!-- Más productos USB Tipo C aquí -->
+
+
+
+
+
+
+
+<!-- Sección USB Tipo C -->
+<section id="usb-c-section" aria-labelledby="usb-c-title" class="product-category" tabindex="0"  hidden>
+  <h2 id="usb-c-title">USB Tipo C</h2>
+  <div class="products-grid">
+
+    <!-- Productos Lightning -->
+<div class="products-grid">
+  <article tabindex="0" class="card"
+    data-name="Cable Lightning para iPhone"
+    data-price="180"
+    data-desc="Cable Lightning certificado para iPhone, con alta durabilidad y carga rápida."
+    data-img='["assets/productos/cable-lightning.jpg", "assets/productos/cable-lightning-2.jpg", "assets/productos/cable-lightning-3.jpg"]'
+    data-reviews='[
+      {"stars":5,"comment":"Perfecto para mi iPhone, carga sin problemas."},
+      {"stars":5,"comment":"Muy resistente y el cable es largo."}
+    ]'>
+    
+    <img src="assets/productos/cable-lightning.jpg" alt="Cable Lightning para iPhone" loading="lazy" />
+    <h3>Cable Lightning para iPhone</h3>
+    <p>$180 MXN</p>
+    <button class="btn-buy" aria-label="Ver detalles de Cable Lightning para iPhone">Detalles</button>
+  </article>
+</div>
+
+
+
+
+
+  </div>
+</section>
+
+
+
+
+  <!-- Puedes añadir más secciones para otros tipos -->
+</main>
+
+  <footer>
+    <p>&copy; 2025 MiTienda. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-desc" hidden>
+    <div class="modal">
+      <button class="modal-close" aria-label="Cerrar ventana modal">&times;</button>
+      <div class="carousel">
+  <button class="carousel-prev" aria-label="Imagen anterior"></button>
+  <img src="" alt="" id="modal-img" />
+  <button class="carousel-next" aria-label="Imagen siguiente"></button>
+</div>
+      <h3 id="modal-title"></h3>
+      <p class="price" id="modal-price"></p>
+      <p class="desc" id="modal-desc"></p>
+      <button class="btn-buy" id="modal-buy-btn">Comprar por WhatsApp</button>
+      <section class="reviews" id="modal-reviews">
+        <h4>Opiniones de clientes</h4>
+        <!-- Reviews serán insertadas aquí -->
+      </section>
+    </div>
+  </div>
+
+  <script src="./script/productos.js"></script>
+</body>
+</html>
