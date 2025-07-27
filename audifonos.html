@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cables | Mi Tienda Online</title>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/productos.css" />
+
+</head>
+<body>
+  <header>
+    <a href="index.html" div class="logo">📱SmartPlace</div></a>
+    <nav>
+      <ul>
+        <li><a href="cargadores.html">Cargadores</a></li>
+        <li><a href="audifonos.html">Audífonos</a></li>
+        <li><a href="fundas.html">Cover</a></li>
+        <li><a href="cables.html" aria-current="page">Bateria</a></li>
+      </ul>
+    </nav>
+    <button class="dark-mode-toggle" aria-label="Alternar modo oscuro">Modo oscuro</button>
+  </header>
+
+  <main>
+  <section class="hero" aria-label="Bienvenida y descripción de productos">
+    <h1>AirPods y Audifonos</h1>
+    <p>La mejor calidad para escuchar musica con el mejor sonido y el mejor Precio.</p>
+  </section>
+
+  <section class="offers" aria-label="Ofertas destacadas">
+    <h2 style="color: aliceblue;">🔥 Ofertas Especiales</h2>
+    <p>¡Hasta 20% de descuento en audifonos hasta fin de mes!</p>
+  </section>
+
+
+  <!-- Barra de filtros justo antes de las secciones de productos -->
+<div class="filter-buttons" role="tablist" aria-label="Filtrar tipos de cables">
+    
+   <button role="tab" aria-selected="true" aria-controls="lightning-section" id="btn-lightning" class="filter-btn  active">AirPods</button>
+  <button role="tab" aria-selected="false" aria-controls="usb-c-section" id="btn-usb-c" class="filter-btn">Cover</button>
+  <!-- Puedes añadir más botones aquí -->
+</div>
+
+
+
+
+
+<!-- Sección Lightning -->
+<section id="lightning-section" aria-labelledby="lightning-title" class="product-category" tabindex="0">
+  <h2 id="lightning-title">AirPods</h2>
+  <div class="products-grid">
+
+    <!-- ✅ Aquí va tu nuevo artículo actualizado -->
+    <article class="card" 
+      data-name="Audifonos AirPods"
+      data-price="990"
+      data-desc="auriculares inalámbricos 2025, auriculares intrauditivos de larga duración, auriculares deportivos inalámbricos 5.3 para Android iOS. Auriculares con micrófono para regalo de Navidad, con graves profundos, tiempo de reproducción ultra, inalámbricos con moda, para portátil, tableta, teléfono, deporte y entrenamiento, 150mAh."
+      data-img='["imagen/audi1.jpeg", "imagen/audi2.jpeg", "imagen/audi3.jpeg"]'
+      data-reviews='[{"stars":4,"comment":"me gustan como suenan para ese Precio."},{"stars":5,"comment":"me encantan, suenan bien y duran mucho tiempo con carga."}]'>
+      <img src="imagen/audi1.jpeg" alt="Audifonos AirPods" loading="lazy" />
+      <h3>Audifonos AirPods</h3>
+      <p>$990</p>
+      <button class="btn-buy" aria-label="Ver detalles de Cable Lightning Tipo C Rápido">Detalles</button>
+    </article>
+
+  </div>
+</section>
+
+      <!-- Más productos USB Tipo C aquí -->
+
+
+
+
+
+
+
+<!-- Sección USB Tipo C -->
+<section id="usb-c-section" aria-labelledby="usb-c-title" class="product-category" tabindex="0"  hidden>
+  <h2 id="usb-c-title">Cover</h2>
+  <div class="products-grid">
+
+
+
+    <!-- Productos Lightning -->
+<div class="products-grid">
+  <article tabindex="0" class="card"
+    data-name="Cover Negro de AirPods "
+    data-price="290"
+    data-desc="Cover para todos los modelo de AirPods."
+    data-img='["./imagen/AirPods/1.jpeg"]'
+    data-reviews='[
+      {"stars":5,"comment":"lindo y resistente."},
+      {"stars":5,"comment":"buen material y buen precio."}
+    ]'>
+    <img src="./imagen/AirPods/1.jpeg" alt="Cover Negro de AirPods" loading="lazy" />
+    <h3>Cover Negro de AirPods</h3>
+    <p>$290</p>
+    <button class="btn-buy" aria-label="Ver detalles de Cover Negro de AirPods">Detalles</button>
+  </article>
+</div>
+
+<div class="products-grid">
+  <article tabindex="0" class="card"
+    data-name="Cover Beis de AirPods "
+    data-price="290"
+    data-desc="Cover para todos los modelo de AirPods."
+    data-img='["./imagen/AirPods/2.jpeg"]'
+    data-reviews='[
+      {"stars":5,"comment":"lindo y resistente."},
+      {"stars":5,"comment":"buen material y buen precio."}
+    ]'>
+    <img src="./imagen/AirPods/2.jpeg" alt="Cover Negro de AirPods" loading="lazy" />
+    <h3>Cover Beis de AirPods</h3>
+    <p>$290</p>
+    <button class="btn-buy" aria-label="Ver detalles de Cover Negro de AirPods">Detalles</button>
+  </article>
+</div>
+
+<div class="products-grid">
+  <article tabindex="0" class="card"
+    data-name="Cover Rosa de AirPods "
+    data-price="290"
+    data-desc="Cover para todos los modelo de AirPods."
+    data-img='["./imagen/AirPods/3.jpeg"]'
+    data-reviews='[
+      {"stars":5,"comment":"lindo y resistente."},
+      {"stars":5,"comment":"buen material y buen precio."}
+    ]'>
+    <img src="./imagen/AirPods/3.jpeg" alt="Cover Negro de AirPods" loading="lazy" />
+    <h3>Cover Rosa de AirPods</h3>
+    <p>$290</p>
+    <button class="btn-buy" aria-label="Ver detalles de Cover Negro de AirPods">Detalles</button>
+  </article>
+</div>
+
+<div class="products-grid">
+  <article tabindex="0" class="card"
+    data-name="Cover Rojo de AirPods "
+    data-price="290"
+    data-desc="Cover para todos los modelo de AirPods."
+    data-img='["./imagen/AirPods/4.jpeg"]'
+    data-reviews='[
+      {"stars":5,"comment":"lindo y resistente."},
+      {"stars":5,"comment":"buen material y buen precio."}
+    ]'>
+    <img src="./imagen/AirPods/4.jpeg" alt="Cover Negro de AirPods" loading="lazy" />
+    <h3>Cover Rojo de AirPods</h3>
+    <p>$290</p>
+    <button class="btn-buy" aria-label="Ver detalles de Cover Negro de AirPods">Detalles</button>
+  </article>
+</div>
+
+<div class="products-grid">
+  <article tabindex="0" class="card"
+    data-name="Cover Rosa Fucsio de AirPods "
+    data-price="290"
+    data-desc="Cover para todos los modelo de AirPods."
+    data-img='["./imagen/AirPods/5.jpeg"]'
+    data-reviews='[
+      {"stars":5,"comment":"lindo y resistente."},
+      {"stars":5,"comment":"buen material y buen precio."}
+    ]'>
+    <img src="./imagen/AirPods/5.jpeg" alt="Cover Negro de AirPods" loading="lazy" />
+    <h3>Cover Rosa Fucsio de AirPods</h3>
+    <p>$290</p>
+    <button class="btn-buy" aria-label="Ver detalles de Cover Negro de AirPods">Detalles</button>
+  </article>
+</div>
+
+<div class="products-grid">
+  <article tabindex="0" class="card"
+    data-name="Cover Transparente de AirPods "
+    data-price="290"
+    data-desc="Cover para todos los modelo de AirPods."
+    data-img='["./imagen/AirPods/6.jpeg"]'
+    data-reviews='[
+      {"stars":5,"comment":"lindo y resistente."},
+      {"stars":5,"comment":"buen material y buen precio."}
+    ]'>
+    <img src="./imagen/AirPods/6.jpeg" alt="Cover Negro de AirPods" loading="lazy" />
+    <h3>Cover Transparente de AirPods</h3>
+    <p>$290</p>
+    <button class="btn-buy" aria-label="Ver detalles de Cover Negro de AirPods">Detalles</button>
+  </article>
+</div>
+
+<div class="products-grid">
+  <article tabindex="0" class="card"
+    data-name="Cover Azul de AirPods "
+    data-price="290"
+    data-desc="Cover para todos los modelo de AirPods."
+    data-img='["./imagen/AirPods/7.jpeg"]'
+    data-reviews='[
+      {"stars":5,"comment":"lindo y resistente."},
+      {"stars":5,"comment":"buen material y buen precio."}
+    ]'>
+    <img src="./imagen/AirPods/7.jpeg" alt="Cover Negro de AirPods" loading="lazy" />
+    <h3>Cover Azul de AirPods</h3>
+    <p>$290</p>
+    <button class="btn-buy" aria-label="Ver detalles de Cover Negro de AirPods">Detalles</button>
+  </article>
+</div>
+
+  </div>
+</section>
+
+
+
+
+  <!-- Puedes añadir más secciones para otros tipos -->
+</main>
+
+  <footer>
+    <p>&copy; 2025 MiTienda. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-desc" hidden>
+    <div class="modal">
+      <button class="modal-close" aria-label="Cerrar ventana modal">&times;</button>
+      <div class="carousel">
+  <button class="carousel-prev" aria-label="Imagen anterior"></button>
+  <img src="" alt="" id="modal-img" />
+  <button class="carousel-next" aria-label="Imagen siguiente"></button>
+</div>
+      <h3 id="modal-title"></h3>
+      <p class="price" id="modal-price"></p>
+      <p class="desc" id="modal-desc"></p>
+      <button class="btn-buy" id="modal-buy-btn">Comprar Ahora</button>
+      <section class="reviews" id="modal-reviews">
+        <h4>Opiniones de clientes</h4>
+        <!-- Reviews serán insertadas aquí -->
+      </section>
+    </div>
+  </div>
+
+  <script src="./script/productos.js"></script>
+</body>
+</html>
